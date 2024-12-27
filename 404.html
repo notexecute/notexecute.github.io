@@ -1,44 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">  
-    <title>404 error</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="./styles.css">
+<div class="container">
+  <form class="four-oh-four-form">
+    <input type="text" class="404-input">
+  </form>
 
-    <script src="./js/three.r134.min.js"></script>
-    <script src="./js/vanta.halo.min.js"></script>
-
-    <script>
-
-    window.addEventListener('DOMContentLoaded', () => {
-        // console.log('Vanta has been successfully loaded')
-        VANTA.HALO({
-        el: "#vanta-bg",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        baseColor: 0xf00a7f,
-        backgroundColor: 0xb0b0c,
-        amplitudeFactor: 0.20,
-        size: 1,
-        })
-    })
-
-    </script>
-
-</head>
-
-<body>
-    <div id="vanta-bg">
-        <header style="padding: 40px">
-            <h1>404</h1>
-            <p>Эта страница не существует. Здесь буквально пустота..</p>
-            <a target="_blank" href="index.html">Вернуться на главную.</a>
-        </header>
-    </div>
-</body>
-</html>
+  <div class="terminal">
+      <p class="prompt">The page you requested cannot be found. Try typing 'mainpage'.</p>
+      <p class="prompt output new-output"></p>
+  </div>
+</div>
